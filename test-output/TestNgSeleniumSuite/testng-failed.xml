@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSeleniumSuite]">
+  <test name="test_Home_Page_Appear_Correct(failed)">
+    <classes>
+      <class name="tests.TestHomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="test_Home_Page_Appear_Correct"/>
+        </methods>
+      </class> <!-- tests.TestHomePage -->
+    </classes>
+  </test> <!-- test_Home_Page_Appear_Correct(failed) -->
+</suite> <!-- Failed suite [TestNgSeleniumSuite] -->
